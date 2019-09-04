@@ -9,6 +9,7 @@ export default function HomeDashboard(props: HomeDashboardProps) {
         <Link
           to={props.match.url + "/patient-search"}
           className="omrs-link omrs-outlined-action omrs-rounded"
+          data-testid="patientSearchLink"
         >
           <svg className="omrs-icon" fill="var(--omrs-color-interaction)">
             <use xlinkHref="#omrs-icon-search" />
